@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowEntryActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/hguideline_70bottom"
+        android:layout_marginBottom="0dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:id="@+id/text_job_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Roboto"
+                android:text="@string/description_step0"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/job_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                app:layout_constraintStart_toStartOf="@id/text_job_title"
+                app:layout_constraintTop_toBottomOf="@id/text_job_title" />
+
+            <TextView
+                android:id="@+id/text_company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/title_company"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@id/job_title"
+                app:layout_constraintTop_toBottomOf="@id/job_title" />
+
+            <TextView
+                android:id="@+id/company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                app:layout_constraintStart_toStartOf="@id/text_company_name"
+                app:layout_constraintTop_toBottomOf="@id/text_company_name" />
+
+            <TextView
+                android:id="@+id/title_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/title_date"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@id/company_name"
+                app:layout_constraintTop_toBottomOf="@id/company_name" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="19sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:focusable="false"
+                android:longClickable="false"
+                app:layout_constraintStart_toStartOf="@id/title_date"
+                app:layout_constraintTop_toBottomOf="@id/title_date" />
+
+            <TextView
+                android:id="@+id/title_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/title_contact"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@id/date"
+                app:layout_constraintTop_toBottomOf="@id/date" />
+
+            <TextView
+                android:id="@+id/contact_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                app:layout_constraintStart_toStartOf="@id/title_contact"
+                app:layout_constraintTop_toBottomOf="@id/title_contact" />
+
+            <TextView
+                android:id="@+id/contact_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                app:layout_constraintStart_toStartOf="@id/contact_name"
+                app:layout_constraintTop_toBottomOf="@id/contact_name" />
+
+            <TextView
+                android:id="@+id/contact_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                app:layout_constraintStart_toStartOf="@id/contact_mail"
+                app:layout_constraintTop_toBottomOf="@id/contact_mail" />
+
+            <TextView
+                android:id="@+id/title_job_ref"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/title_job_ref"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="@id/contact_phone"
+                app:layout_constraintTop_toBottomOf="@id/contact_phone" />
+
+            <TextView
+                android:id="@+id/job_ref"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                app:layout_constraintStart_toStartOf="@id/title_job_ref"
+                app:layout_constraintTop_toBottomOf="@id/title_job_ref" />
+
+            <TextView
+                android:id="@+id/title_notes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/title_notes"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@id/job_ref"
+                app:layout_constraintTop_toBottomOf="@id/job_ref" />
+
+            <TextView
+                android:id="@+id/notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                app:layout_constraintStart_toStartOf="@id/title_notes"
+                app:layout_constraintTop_toBottomOf="@id/title_notes" />
+
+            <!-- Empty view to avoid notes to be hidden by keyboard -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                app:layout_constraintStart_toStartOf="@id/notes"
+                app:layout_constraintTop_toBottomOf="@id/notes" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/hguideline_70bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintGuide_end="70dp"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layout_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toTopOf="@id/hguideline_70bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/text_back_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="100dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

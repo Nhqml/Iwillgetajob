@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="title_step_array">
+        <item>@string/title_step0</item>
+        <item>@string/title_step1</item>
+        <item>@string/title_step2</item>
+        <item>@string/title_step3</item>
+    </array>
+    <array name="description_step_array">
+        <item>@string/description_step0</item>
+        <item>@string/description_step1</item>
+        <item>@string/description_step2</item>
+        <item>@string/description_step3</item>
+    </array>
+</resources>

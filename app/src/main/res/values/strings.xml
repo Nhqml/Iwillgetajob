@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">I\'llGetAJob</string>
+
+    <string name="title_step0">Cibles</string>
+    <string name="title_step1">Candidatures</string>
+    <string name="title_step2">Relances</string>
+    <string name="title_step3">Entretiens</string>
+    <string name="description_step0">Je vais postuler pour…</string>
+    <string name="description_step1">J\'ai postulé pour…</string>
+    <string name="description_step2">J\'ai relancé pour…</string>
+    <string name="description_step3">J\'ai un entretien pour…</string>
+
+    <string name="popup_menu_edit">Modifier</string>
+    <string name="popup_menu_delete">Supprimer</string>
+    <string name="delete_dialog_title">Suppression</string>
+    <string name="delete_dialog_message">Voulez-vous vraiment supprimer cet élément ?</string>
+    <string name="delete_dialog_positiveB">Oui</string>
+    <string name="delete_dialog_negativeB">Non</string>
+
+    <!-- Activity New Entry -->
+    <string name="default_job_title">Titre du poste</string>
+    <string name="title_company">au sein de…</string>
+    <string name="default_company_name">Nom de l\'entreprise</string>
+    <string name="title_date">Date</string>
+    <string name="title_contact">Contact dans l\'entreprise</string>
+    <string name="default_contact_name">NOM / Prénom</string>
+    <string name="default_contact_mail">Adresse mail</string>
+    <string name="default_contact_phone">N° téléphone</string>
+    <string name="title_job_ref">Reférence de l\'offre</string>
+    <string name="default_job_ref">Lien vers l\'offre</string>
+    <string name="title_notes">Notes</string>
+    <string name="text_confirm_button">Enregistrer</string>
+    <string name="text_cancel_button">Annuler</string>
+    <string name="message_warning_fill">Vous devez remplir ce champ</string>
+
+    <!-- Activity Show Entry -->
+    <string name="text_back_button">Retour</string>
+    <string name="popup_menu_move">Déplacer</string>
+
+
+    <string name="sort_atoz">de A à Z</string>
+    <string name="sort_ztoa">de Z à A</string>
+    <string name="sort_date">Date</string>
+</resources>

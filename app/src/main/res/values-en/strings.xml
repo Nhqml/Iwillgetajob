@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_step0">Targets</string>
+    <string name="title_step1">Applications</string>
+    <string name="title_step2">Relaunched</string>
+    <string name="title_step3">Interviews</string>
+    <string name="description_step0">I will apply for…</string>
+    <string name="description_step1">I have applied for…</string>
+    <string name="description_step2">I have relaunched for…</string>
+    <string name="description_step3">I have an interview for…</string>
+
+    <string name="popup_menu_edit">Edit</string>
+    <string name="popup_menu_delete">Delete</string>
+    <string name="delete_dialog_title">Deletion</string>
+    <string name="delete_dialog_message">Do you really want to delete this item?</string>
+    <string name="delete_dialog_positiveB">Yes</string>
+    <string name="delete_dialog_negativeB">No</string>
+
+    <!-- Activity New Entry -->
+    <string name="default_job_title">Job title</string>
+    <string name="title_company">at…</string>
+    <string name="default_company_name">Company name</string>
+    <string name="title_date">Date</string>
+    <string name="title_contact">Contact in company</string>
+    <string name="default_contact_name">NAME / Firstname</string>
+    <string name="default_contact_mail">Email address</string>
+    <string name="default_contact_phone">Phone number</string>
+    <string name="title_job_ref">Proposal reference</string>
+    <string name="default_job_ref">URL of the proposal</string>
+    <string name="title_notes">Notes</string>
+    <string name="text_confirm_button">Save</string>
+    <string name="text_cancel_button">Cancel</string>
+
+    <!-- Activity Show Entry -->
+    <string name="text_back_button">Back</string>
+    <string name="message_warning_fill">You must fill this</string>
+    <string name="popup_menu_move">Move</string>
+
+
+    <string name="sort_atoz">from A to Z</string>
+    <string name="sort_ztoa">from Z to A</string>
+    <string name="sort_date">Date</string>
+</resources>

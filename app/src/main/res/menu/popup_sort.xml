@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/popup_sortAZ"
+        android:title="@string/sort_atoz" />
+
+    <item
+        android:id="@+id/popup_sortZA"
+        android:title="@string/sort_ztoa" />
+
+    <item
+        android:id="@+id/popup_sortDate"
+        android:title="@string/sort_date" />
+
+</menu>
